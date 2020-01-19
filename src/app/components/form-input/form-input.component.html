@@ -1,0 +1,15 @@
+<div class="content">
+  <mat-form-field class="with">
+    <input matInput placeholder="Input">
+  </mat-form-field>
+
+  <mat-form-field class="with">
+    <textarea matInput placeholder="Textarea"></textarea>
+  </mat-form-field>
+
+  <mat-form-field class="with">
+    <mat-select placeholder="Select">
+      <mat-option *ngFor="let singog of listSingog" value="singog">{{singog}}</mat-option>
+    </mat-select>
+  </mat-form-field>
+</div>
